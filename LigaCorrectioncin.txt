@@ -1,0 +1,2 @@
+https://github.com/microsoft/vscode-cpptools/issues/7699
+Corrige en windows el problema
