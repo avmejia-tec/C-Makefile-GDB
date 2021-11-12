@@ -8,7 +8,6 @@
             "name": "(gdb) Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}\\myapp.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
@@ -16,13 +15,16 @@
             "externalConsole": true,
             "linux": {
                 "MIMode": "gdb",
-                "miDebuggerPath": "/usr/bin/gdb"
+                "miDebuggerPath": "/usr/bin/gdb",
+                "program": "${workspaceFolder}/myapp",
               },
               "osx": {
-                "MIMode": "lldb"
+                "MIMode": "lldb",
+                "program": "${workspaceFolder}/myapp",
               },
               "windows": {
                 "MIMode": "gdb",
+                "program": "${workspaceFolder}\\myapp.exe",
                 "miDebuggerPath": "c:\\cygwin64\\bin\\gdb.exe"
               },
             "setupCommands": [
