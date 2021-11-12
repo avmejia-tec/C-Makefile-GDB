@@ -13,6 +13,7 @@
             "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": true,
+            "program": "${workspaceFolder}/myapp",
             "linux": {
                 "MIMode": "gdb",
                 "miDebuggerPath": "/usr/bin/gdb",
